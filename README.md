@@ -1,1 +1,1 @@
-https://asankulov-t.github.io/alivie-lending/
+https://asankulov-t.github.io/alivie-lending/index
