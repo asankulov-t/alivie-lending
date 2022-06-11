@@ -1,0 +1,64 @@
+
+.cart{
+    width: 296.14px;
+    height: 293.9px;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 0px 3.62249px 18.1125px rgba(165, 165, 165, 0.25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 28px 20px 30px;
+}
+.cart-title{
+    position: relative;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1;
+    padding-bottom: 12px;
+    margin-bottom: 13px;
+}
+.cart-title::after{
+    content: '';
+    position: absolute;
+    background-color: black;
+    height: 0.75px;
+    right: -7px;
+    left: -7px;
+    bottom: 0px;
+}
+.cart-ava{
+    margin-bottom: 25px;
+}
+.ava{
+    text-align: center;
+}
+.ava-img{
+    width: 57px;
+    height: 57px;
+    margin-bottom: 13px;
+    object-fit: cover;
+}
+.avatar-name{
+    font-size: 14px;
+}
+.cart-content{
+    text-align: left;
+    padding-left: 6px;
+}
+.cart-content-title{
+    font-family: 'Georgia';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 157%;
+    margin-bottom: 22px;
+    color: #000000;
+}
+.cart-content ul{
+    font-size: 10px;
+    list-style-type: disc;
+    list-style-position: inside;
+}
+.cart-content ul li+li{
+    margin-top: 20px;
+}

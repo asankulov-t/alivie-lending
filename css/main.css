@@ -1,0 +1,47 @@
+body{
+    font-family: 'Lato',sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;
+    /*min-width: 1600px;*/
+}
+/*utiles*/
+.none{
+    display: none !important;
+}
+.visually-hidden{
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+    display: block;
+    margin-left: -10000px;
+    background: transparent;
+    font-size: 0;
+}
+
+/*Grid*/
+.container{
+    width: 1400px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+@media (max-width:1399px ) {
+    .container{
+        width: 100%;
+    }
+}
+.container-wide{
+    width: 1450px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (max-width:1450px ) {
+    .container-wide{
+        width: 100%;
+    }
+}
